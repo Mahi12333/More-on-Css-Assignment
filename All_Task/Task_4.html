@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circular Image</title>
+    <link rel="stylesheet" type="text/css" href="#">
+    <style>
+        /* styles.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 200px;
+    height: 200px;
+    /*overflow: hidden;*/
+    border-radius: 50%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid green; 
+    border-radius: 50%; 
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./image/img.jpg" alt="Circular Image">
+    </div>
+</body>
+</html>
