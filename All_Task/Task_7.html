@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semi-Transparent Card</title>
+    <link rel="stylesheet" type="text/css" href="#" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .card {
+            width: 300px;
+            margin: 20px auto;
+            border-radius: 10px;
+            transition: background-color 0.3s;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border: 2px solid black;
+            padding: 5px;
+            background-color: aqua;
+            opacity: 0.5;
+        }
+
+        .card:hover {
+          opacity: 1;
+            
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        .card-content {
+            padding: 10px;
+        }
+
+
+        p {
+            margin: 0;
+            text-align: left;
+        }
+
+
+
+        p {
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="./image/Task.png" alt="Card Image" />
+        <div class="card-content">
+            <p>
+                <strong>Course Name:</strong> PW SKills Web Development
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
