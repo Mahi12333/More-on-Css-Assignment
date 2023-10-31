@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="#">
+    <style>
+        /* styles.css */
+
+        .navbar {
+            background-color: cornflowerblue;
+            padding: 10px;
+        }
+
+        .nav-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: left;
+        }
+
+        .nav-item {
+            margin: 0 15px;
+            border: 1px solid transparent;
+        }
+
+        .nav-item:nth-child(1) {
+            border: 2px solid black;
+            padding: 5px;
+          
+        }
+
+        .nav-item:nth-child(2) {
+            
+            border: 2px dotted black;
+            padding: 5px;
+          
+        }
+
+        .nav-item:nth-child(3) {
+            border: 2px dashed black;
+            padding: 5px;
+           
+        }
+
+        .nav-item:nth-child(4) {
+            border: 2px solid black;
+            padding: 5px;
+         
+        }
+
+        .nav-item:nth-child(5) {
+            border: 2px groove black;
+            padding: 5px;
+            
+        }
+
+        .nav-item a {
+          
+            color: #fff;
+            transition: color 0.3s;
+        }
+
+        .nav-item:hover {
+            border-color: #ff6600;
+           
+        }
+
+        .nav-item:hover a {
+            color: #ff6600;
+            /* Change the text color on hover */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">About Us</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+            <li class="nav-item"><a href="#">Blog</a></li>
+            <li class="nav-item"><a href="#">Login</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
